@@ -975,7 +975,7 @@ font:
   # NotoSansSymbols2-hearts.ttf (OFL): Noto Sans Symbols 2 cut to those three with fontTools' pyftsubset, its U+2764 given
   # the U+2665 heart, as Noto's own is a squat one lying on its side. tools/profiles.py glyphs() reads both lists.
   # The last entry, ${SCRIPT_GLYPHS}, is empty on every screen but one built in a language of another script.
-  - file: "${FONT_DIR}/Roboto-500.ttf"
+  - file: "${FONT_DIR}/NotoSansKR-SemiBold.ttf"
     id: headline
     size: ${FONT_HEADLINE_SIZE}
     bpp: 4
@@ -989,7 +989,7 @@ font:
       - file: "${FONT_DIR}/NotoSansSymbols2-hearts.ttf"
         glyphs: ['♡','♥','❤']
 
-  - file: "${FONT_DIR}/Roboto-500.ttf"
+  - file: "${FONT_DIR}/NotoSansKR-SemiBold.ttf"
     id: watch_value
     size: ${FONT_WATCH_VALUE_SIZE}
     bpp: 4
@@ -1061,7 +1061,7 @@ font:
       - file: "${FONT_DIR}/NotoSansSymbols2-hearts.ttf"
         glyphs: ['♡','♥','❤']
 
-  - file: "${FONT_DIR}/Roboto-400.ttf"
+  - file: "${FONT_DIR}/NotoSansKR-SemiBold.ttf"
     id: sublabel_big
     size: ${FONT_SUBLABEL_BIG_SIZE}
     bpp: 4
